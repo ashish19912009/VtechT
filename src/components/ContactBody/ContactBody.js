@@ -3,6 +3,7 @@ import Section from '../Section/Section';
 import ContactUsForm from '../ContactUsForm/ContactUsForm';
 import {Row, Col} from 'reactstrap';
 import AddressCard from '../../components/Cards/AddressCard';
+import Hire from '../../components/Cards/Hireing';
 
 const ContactBody = () => {
     const [completeAddress, setUpdateAddress] = useState([
@@ -22,13 +23,18 @@ const ContactBody = () => {
     return(
         <>
             <Section bgColor='transparent'>
-           <Col><h1 className='title'>Contact Us</h1></Col>
+           <Col xs={8}><h1 className='title'>Contact Us</h1></Col>
             <Row>
                 <Col xs={12} sm={8} style={{color:'black'}}>
                     <ContactUsForm/>
                 </Col>
                 <Col xs={12} sm={4} style={{color:'#000000'}}>
                 <AddressCard address_1={completeAddress[0].address1} address_2={completeAddress[0].address2} city={completeAddress[0].city} state={completeAddress[0].state} pincode={completeAddress[0].pincode} primary_mob={completeAddress[0].contact_1} secondary_mob={completeAddress[0].contact_2} email={completeAddress[0].email} wrk_hrs={completeAddress[0].wrk_hrs}/> 
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={12} style={{color:'#000000'}}>
+                <Hire/> 
                 </Col>
             </Row>
         </Section>
