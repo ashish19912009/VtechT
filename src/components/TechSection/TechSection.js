@@ -42,17 +42,6 @@ const TechSection = (props) => {
                             <i className="now-ui-icons "><img alt='' src={AI}/></i>
 						</div>
                         <br/><br/><br/>
-                        <div className="row text-center mt-5">
-				            <div className="col-md-8 ml-auto mr-auto">
-				            	<h2>It's Important</h2>
-				            	<h5 className="description">Its important to know what technology is used to design your software. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap 4 UI Kit.</h5>
-				            </div>
-				            <div className="col-md-12">
-				            	<a href="#polo" className="btn btn-neutral btn-round btn-lg">
-				            		<i className="now-ui-icons arrows-1_minimal-down"></i> More
-				            	</a>
-				            </div>
-			            </div>
                 </Col>
             </Row>
       </Container>

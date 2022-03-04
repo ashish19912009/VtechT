@@ -14,9 +14,9 @@ const AboutUsSection = (props) => {
                     <h2 className="title">Vaidik Technologies</h2>
                     <br/>
                     <h5 className="description">
-		    					Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
-                                Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
-                                Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
+                    At Vaidik, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development, cross platform applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.
+
+                    As a emerging leader in technology exploring, vaidik is committed to exporting quality software worldwide.
 		    		</h5>
                 </Col>
                 

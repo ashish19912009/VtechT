@@ -13,21 +13,21 @@ import{
 const items = [
     {
         id: 1,
-      clientName: "Ashish",
-      clientDesg:'CEO, Deskhelp',      
-      clientMsg: "They are the best"
+      clientName: "Sudhir Mishra",
+      clientDesg:'Business Lead, Deskhelp',      
+      clientMsg: "They have converted our manual process completely digital, kudos to dev team."
     },
     {
         id: 2,
-      clientName: "Somnath Mondal",
+      clientName: "Somnath Jr",
       clientDesg:'H.O, Nagarnigam',      
-      clientMsg: "Somewhere Beyond, United States"
+      clientMsg: "Well trained technical team."
     },
     {
         id: 3,
-      clientName: "Charu Hashi Rena",
+      clientName: "Charu Sharma",
       clientDesg:'M.D, SpeedAir',      
-      clientMsg: "Yellowstone National Park, United States"
+      clientMsg: "Has delivered what they have commited, no complains."
     }
   ];
 function ClientReviews () {

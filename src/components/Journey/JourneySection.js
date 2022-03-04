@@ -2,6 +2,7 @@ import React from "react";
 // reactstrap components
 import {Container, Row, Col} from 'reactstrap';
 import AchvCard from '../Cards/AchievementCard';
+import AchvCard1 from '../Cards/AchievementCard1';
 
 const JourneySection = () => {
     return (
@@ -16,7 +17,7 @@ const JourneySection = () => {
             </Col>
                 <Col xs={12} sm={6}>
                     <h5 className="description" style={{color:'white'}}>
-		    					Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
+                        We got ourself regiested as Private Limited in 2015 and since then we are continuously growing and expanding our operations. We have designed and devepled multiple applications and websites for individual clients and govt. organization.
 		    		</h5>
                 </Col>
             </Row>
@@ -24,11 +25,11 @@ const JourneySection = () => {
             <Row>
                 <Col xs={12} sm={6}>
                     <h5 className="description" style={{color:'white'}}>
-		    					Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
+		    					Keeping in mind with home security and embracing IOT we designed and developed a unit Smart Device for home and offices which can be used for controlling your electricals of your home from anywhere.
 		    		</h5>
                 </Col>
                 <Col xs={12} sm={6}>
-                    <AchvCard/>
+                    <AchvCard1/>
                 </Col>
             </Row>
       </Container>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'reactstrap';
 import LogoBig from '../Logo/LogoBig/LogoBig';
 
@@ -10,11 +11,10 @@ const WhyUsSection = (props) => {
                 <Col xs={12} sm={8}>
                     <h2 className="title">Why Us ?</h2>
                     <h5 className="description">
-		    					Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
+                    Our customers choose us because we provide leading technology, deliver unmatched services, and offer some of the best services in Uttrakhand IT space. Regardless of the project size and complexity, we strive to provide our customers with great technology, differentiated products and unmatched engineering services delivered within a flexible and cost-effective business model that meets our customer’s needs.
 		    		</h5>
-                    <a href="#polo" className="btn btn-primary btn-round btn-lg">Contact Us</a>
-                            
-		    		<a href="#polo" className="btn btn-outline-primary btn-round btn-lg ml-2">Know More</a>
+              <Link to='/ContactUs' className="btn btn-primary btn-round btn-lg">Contact Us</Link>
+              <Link to='/AboutUs' className="btn btn-outline-primary btn-round btn-lg ml-2">Know More</Link>
                 </Col>
                 <Col xs={12} sm={4}>
                   <LogoBig/>

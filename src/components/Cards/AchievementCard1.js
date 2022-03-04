@@ -8,18 +8,18 @@ import{
   Badge
 } from "reactstrap";
 
-function AchievementCard(props){
+function AchievementCard1(props){
     return (
         <Card className="text-center">
           <CardBody>
-            <CardTitle tag="h4">We registered as Pvt. Ltd.</CardTitle>
+            <CardTitle tag="h4">Own Product</CardTitle>
             <CardText>
-              We got ourself regiested as Private Limited in 2015.
+              Vaidik Smart Device
             </CardText>
-            <Badge color="primary">6 Years Ago</Badge>
+            <Badge color="primary">3 Years Ago</Badge>
           </CardBody>
         </Card>
     );
   }
   
-  export default AchievementCard;
+  export default AchievementCard1;
